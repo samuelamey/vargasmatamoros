@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- load and instantiate ScrollReveal first -->
+	<script src="js/scrollreveal.min.js"></script>
+    <script>
+    window.sr = ScrollReveal();
+	
+	var config = {
+    reset:  true,
+    mobile: true
+	}
+
+	window.sr = new scrollReveal( config );
+    </script>
+  </head>
+  <body>
+	<div data-sr='enter top'> dadsds </div>
+	<h1 data-sr="wait 2s, ease-in-out 100px">Titulo animado</h1>
+	
+    <div class="fooContainer">
+      <div class="fooReveal"> Foo </div>
+      <div class="fooReveal"> Foo </div>
+      <div class="fooReveal"> Foo </div>
+    </div>
+
+    <!-- make reveal calls last -->
+    <script>
+      sr.reveal('.fooReveal', { container: '.fooContainer' });
+
+	  
+	  
+    </script>
+
+  </body>
+</html>

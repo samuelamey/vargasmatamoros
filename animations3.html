@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- load and instantiate ScrollReveal first -->
+    <script src="js/scrollreveal.min.js"></script>
+    <script>
+		var fooReveal = {
+		  delay    : 200,
+		  distance : '90px',
+		  easing   : 'ease-in-out',
+		  rotate   : { z: 10 },
+		  scale    : 1.1
+		};
+
+		window.sr = ScrollReveal();
+		sr.reveal('.foo', fooReveal);
+		sr.reveal('#chocolate', { delay: 500, scale: 0.9 });
+    </script>
+
+    <style>
+
+      /* Ensure elements load hidden before ScrollReveal runs */
+      .sr .fooReveal { visibility: hidden; }
+
+      /* add perspective to your container */
+      .fooContainer { perspective: 800px; }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="fooContainer">
+      <div class="fooReveal"> Foo </div>
+      <div class="fooReveal"> Foo </div>
+      <div class="fooReveal"> Foo </div>
+    </div>
+	<br>
+	<div class="foo"> Foo </div>
+	<div class="foo" id="chocolate"> Chip </div>
+
+  <!-- make reveal calls last -->
+    <script>
+      sr.reveal('.fooReveal', { container: '.fooContainer', rotate: { x: 0, y: 0, z: 12 } });
+    </script>
+
+  </body>
+</html>
