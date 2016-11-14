@@ -1,0 +1,28 @@
+
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+
+#slider{
+    width: 2000px;
+    height: 100px;
+
+    background-image: url(../img/prueba2.png);
+    background-size: 100% 100%;
+
+    animation: slider 100s infinite linear;
+}
+
+@keyframes slider{
+    to{
+        background-position: 2000px;
+
+    }
+
+}
+
