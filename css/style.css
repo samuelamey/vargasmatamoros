@@ -1,9 +1,56 @@
+@font-face{
+    font-family: "Oxygen";
+    src: url("../fonts/Oxygen-Regular.ttf");
+
+}
+@font-face{
+    font-family: "MerryWeather";
+    src: url("../fonts/Merriweather-Regular.ttf");
+
+}
+
+@font-face{
+    font-family: "libreFrankling";
+    src: url("../fonts/librefranklin-regular.ttf")
+
+}
+@font-face{
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+
+}
+
+.Oxygen{
+    font-family: Oxygen;
+}
+.Merry{
+    font-family: MerryWeather;
+}
+.Libre{
+    font-family: libreFrankling;
+}
+.OpenSans{
+    font-family: OpenSans;
+}
 
 
 .contenedor{
     width: 100%;
     margin: auto;
     overflow: hidden;
+
+}
+
+.nav-justified{
+    display: table;
+    display: table-cell;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+.a{
+    height: 70px; 
+    border: transparent;
 
 }
 
@@ -21,8 +68,6 @@
 @keyframes slider{
     to{
         background-position: 2000px;
-
     }
-
 }
 

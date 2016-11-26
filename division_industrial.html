@@ -16,13 +16,14 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Animate.css -->
-	<link href="css/animate.css" rel='stylesheet' type='text/css'>
-	<!-- IE Support -->
+	  <link href="css/animate.css" rel='stylesheet' type='text/css'>
+	  <!-- IE Support -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/justified-nav.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css.css" >
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/darkbox.css" type="text/css">
 
     <!-- Javascript -->
     <script src="js/ie-emulation-modes-warning.js"></script>
@@ -36,66 +37,267 @@
       <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
       <div class="masthead">
-		<div class="row">
-			<div class="col-md-6">
-				<img src="img\logoPrincipal1.png" alt="LOGO" class="img-responsive" height= "relative" width= "relative" max-width= "500px" max-height= "370px">
-			</div>
-			<div class="col-md-6">
-				<div class="col-sm-6 col-sm-offset-6">
-					<img src="img\bandera_usa.png" alt="LOGO" class="img-responsive" height= "relative" width= "relative" max-width= "500px" max-height= "370px" />
-				</div>
-			</div>
-		</div>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img\logoPrincipal1.png" alt="LOGO" class="img-responsive" height= "relative" width= "relative" max-width= "500px" max-height= "370px">
+      </div>
+      <div class="col-md-6">
+        <div class="col-sm-6 col-sm-offset-6">
+          <img src="img\bandera_usa.png" alt="LOGO" class="img-responsive" height= "relative" width= "relative" max-width= "500px" max-height= "370px" />
+        </div>
+      </div>
+    </div>
         <nav>
-          <ul class="nav nav-justified">
-            <li><a href="index.html"><br>Inicio</a></li>
-            <li class="active"><a href="division_industrial.html">División Industrial</a></li>
-            <li><a href="motores_combustion_interna.html">Rectificación de Motores</a></li>
-            <li><a href="#">Venta de Repuestos</a></li>
-            <li><a href="#">¿Necesita un torque?</a></li>
-            <li><a href="#"><br>Sucursales</a></li>
-            <li><a href="#"><br>Contáctenos</a></li>
+          <ul class="nav nav-justified ">
+            <li><a class="a" href="index.html">Inicio</a></li>
+            <li class="active"><a class="a" href="division_industrial.html">División Industrial</a></li>
+            <li><a class="a" href="motores_combustion_interna.html">Rectificación de Motores</a></li>
+            <li><a class="a" href="#">Venta de Repuestos </a></li>
+            <li><a class="a" href="#">¿Necesita un torque?</a></li>
+            <li><a class="a" href="#">Sucursales <br></a></li>
+            <li><a class="a" href="#">Contáctenos <br></a></li>
           </ul>
         </nav>
       </div>
-	  <br>
-	  <br>
+      <br>
+    <br>
       <div class="row">
         <div class="col-lg-8">
-			<div class="col-lg-6">
-			  <h2>Hot Welding</h2>
-			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-			  <p>Foto</p>
-			</div>
-			<div class="col-lg-6">
-			  <h2>Tornería Pesada</h2>
-			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-			  <p>Foto</p>
-		   </div>
-		   <div class="row">
-				<div class="col-lg-12">
-				  <h2>Arc Spray </h2>
-				  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-				  <p>Foto</p>
-				</div>
-		   </div>
-	   </div>
-	    <div class="col-lg-4">
-          <h2>Contáctenos</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p>Foto</p>
+      <div class="col-lg-6">
+        <h2>Hot Welding</h2>
+        <p class="Libre">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <!--GALERIA HOT WELDING-->
+        <div>
+        <div align="center" id="myCarouselHW"  data-target="HW" class="carousel slide col-md-12 col-lg-12" data-ride="carousel">    
+                                <!-- Wrapper for slides -->
+                                
+                                  <div align="center" class="carousel-inner" role="listbox" id="HW">
+                                    <div class="item active animated fadeInLeft">
+                                      <img src="img\5.jpg" class="carimg"
+                                      data-darkbox="img\5.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft" >
+                                      <img src="img\1.jpg" class="carimg"
+                                      data-darkbox="img\1.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\2.jpg" class="carimg"
+                                      data-darkbox="img\2.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\3.jpg" class="carimg"
+                                      data-darkbox="img\3.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\4.jpg" class="carimg"
+                                      data-darkbox="img\4.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+            
+                                    
+
+                                  </div>
+                                  <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarouselHW" role="button" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarouselHW" role="button" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>  
+                                </div>
+                          </div>
+
+
+      </div>
+      <div class="col-lg-6">
+        <h2>Tornería Pesada</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <!--GALERIA TONERIA PESADA-->
+        <div>
+        <div align="center" id="myCarouselTP"  data-target="TP" class="carousel slide col-md-12 col-lg-12" data-ride="carousel">    
+                                <!-- Wrapper for slides -->
+                                
+                                  <div align="center" class="carousel-inner" role="listbox" id="TP">
+                                    <div class="item active animated fadeInLeft">
+                                      <img src="img\5.jpg" class="carimg"
+                                      data-darkbox="img\5.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft" >
+                                      <img src="img\1.jpg" class="carimg"
+                                      data-darkbox="img\1.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\2.jpg" class="carimg"
+                                      data-darkbox="img\2.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\3.jpg" class="carimg"
+                                      data-darkbox="img\3.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\4.jpg" class="carimg"
+                                      data-darkbox="img\4.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+            
+                                    
+
+                                  </div>
+                                  <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarouselTP" role="button" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarouselTP" role="button" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>  
+                                </div>
+                          </div>
        </div>
-      </div>	  
-	  
+       <div class="row">
+        <div class="col-lg-12">
+          <h2>Arc Spray </h2>
+          <p class="Oxygen">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <!--GALERIA ARC SPRAY-->
+        <div>
+        <div align="center" id="myCarouselAS"  data-target="AS" class="carousel slide col-md-12 col-lg-12" data-ride="carousel">    
+                                <!-- Wrapper for slides -->
+                                
+                                  <div align="center" class="carousel-inner" role="listbox" id="AS">
+                                    <div class="item active animated fadeInLeft">
+                                      <img src="img\5.jpg" class="carimg"
+                                      data-darkbox="img\5.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft" >
+                                      <img src="img\1.jpg" class="carimg"
+                                      data-darkbox="img\1.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\2.jpg" class="carimg"
+                                      data-darkbox="img\2.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\3.jpg" class="carimg"
+                                      data-darkbox="img\3.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\4.jpg" class="carimg"
+                                      data-darkbox="img\4.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+            
+                                    
+
+                                  </div>
+                                  <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarouselAS" role="button" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarouselAS" role="button" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>  
+                                </div>
+                          </div>
+        </div>
+       </div>
+     </div>
+      <div class="col-lg-4">
+          <h2>Contáctenos</h2>
+          <p class="OpenSans">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <!--GALERIA TONERIA PESADA-->
+        <div>
+        <div align="center" id="myCarouselCONT"  data-target="CONT" class="carousel slide col-md-12 col-lg-12" data-ride="carousel">    
+                                <!-- Wrapper for slides -->
+                                
+                                  <div align="center" class="carousel-inner" role="listbox" id="CONT">
+                                    <div class="item active animated fadeInLeft">
+                                      <img src="img\5.jpg" class="carimg"
+                                      data-darkbox="img\5.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft" >
+                                      <img src="img\1.jpg" class="carimg"
+                                      data-darkbox="img\1.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\2.jpg" class="carimg"
+                                      data-darkbox="img\2.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\3.jpg" class="carimg"
+                                      data-darkbox="img\3.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+
+                                    <div class="item animated fadeInLeft">
+                                      <img src="img\4.jpg" class="carimg"
+                                      data-darkbox="img\4.jpg"
+                                      data-darkbox-description="<b></b> ">
+                                    </div>
+            
+                                    
+
+                                  </div>
+                                  <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarouselCONT" role="button" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarouselCONT" role="button" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>  
+                                </div>
+                          </div>
+       </div>
+      </div>    
+    
       <!-- Site footer -->
       <footer class="footer">
         <div class="col-lg-12 text-center">
-			<h6>&copy; GRUPO VARGAS MATAMOROS PANAMÁ - Todos los Derechos 2016 - Desarrollado por <a href="http://ticatico.net/"><font color="red">Ticatico.net</font></a></h6>
-		</div>
-	  </footer>
-	  
+      <h6>&copy; GRUPO VARGAS MATAMOROS PANAMÁ - Todos los Derechos 2016 - Desarrollado por <a href="http://ticatico.net/"><font color="red">Ticatico.net</font></a></h6>
+    </div>
+    </footer>
+    
     </div> <!-- /container -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/darkbox.js"></script>
   </body>
 </html>
