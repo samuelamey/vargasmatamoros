@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<meta name="keywords" content="Grupo Vargas Matamoros, repuestos, panama, division industrial, sucursales, repuestos marinos, repuestos electricos">	
 	<meta name="description" content="Grupo Vargas Matamoros Panamá - Todo en Repuestos Contáctenos (+507)xxxx-xxxx - (+507)xxxx-xxxx - (+507)xxxx-xxxx">
@@ -24,16 +25,19 @@
 
     <link rel="stylesheet" href="css/style.css" >
     <link rel="stylesheet" href="css/darkbox.css" type="text/css">
+     <link rel="stylesheet" href="fonts.css">
 
     <!-- Javascript -->
     <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/main.js"></script>
 
   </head>
 
   <body>
 
     <div class="container">
-
+    <header>
       <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
       <div class="masthead">
@@ -47,20 +51,37 @@
         </div>
       </div>
     </div>
-        <nav>
-          <ul class="nav nav-justified ">
-            <li><a class="a" href="index.html">Inicio</a></li>
-            <li class="active"><a class="a" href="division_industrial.html">División Industrial</a></li>
-            <li><a class="a" href="motores_combustion_interna.html">Rectificación de Motores</a></li>
-            <li><a class="a" href="#">Venta de Repuestos </a></li>
-            <li><a class="a" href="#">¿Necesita un torque?</a></li>
-            <li><a class="a" href="#">Sucursales <br></a></li>
-            <li><a class="a" href="#">Contáctenos <br></a></li>
+      <div  class="menu_bar">
+            <a href="#" class="bt-menu">Menu<span class="glyphicon glyphicon-align-justify"></span></a>
+        
+      </div>
+
+    <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><span class="icon-house"></span><a class="a" href="division_industrial.html">División Industrial</a></li>
+            <li class="submenu">
+                <a >Rectificación de Motores<span class="caret glyphicon"></span></a>
+                <ul class="children">
+                    <li><a href="">Sub menu</a></li>
+                    <li><a href="">Sub menu</a></li>
+                    <li><a href="">Sub menu</a></li>
+
+                </ul>
+
+
+            </li>
+            <li><a href="#">Venta de Repuestos </a></li>
+            <li><a href="#">¿Necesita un torque?</a></li>
+            <li><a href="#">Sucursales <br></a></li>
+            <li><a href="#">Contáctenos <br></a></li>
           </ul>
-        </nav>
+   </nav>
       </div>
       <br>
     <br>
+  </header>
+
       <div class="row">
         <div class="col-lg-8">
       <div class="col-lg-6">
