@@ -20,6 +20,12 @@
 
 }
 
+.imgindex{
+    position: relative;
+    margin-left: 50px;
+
+}
+
 .Oxygen{
     font-family: Oxygen;
 }
@@ -69,7 +75,8 @@ header {
 }
  
 header nav {
-    background: gray;
+    
+    background: #ff2800;
     z-index:1000;
     max-width: 1000px;
     width:95%;
@@ -81,16 +88,19 @@ header nav ul {
 }
  
 header nav ul li {
+
     display:inline-block;
     position: relative;
 }
  
 header nav ul li:hover {
-    background:#E6344A;
+    color: white;
+    background:gray;
 }
  
 header nav ul li a {
-    color:#000;
+    font-size: 15px; 
+    color:#fff;
     display:block;
     text-decoration:none;
     padding: 15px;
@@ -101,12 +111,14 @@ header nav ul li a span {
 }
  
 header nav ul li:hover .children {
+    background: gray;
     display:block;
 }
  
 header nav ul li .children {
+    color: #fff;
     display: none;
-    background:gray;
+    background: #bf1e00;
     position: absolute;
     width: 150%;
     z-index:1000;
@@ -207,5 +219,4 @@ body {
         float: right;
     }
 }    
-            
-      
+       
