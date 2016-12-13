@@ -50,7 +50,7 @@ transition: all 0.5s ease;
 }
 
 .divin{
-    background-image: url(../img/inicio/1.png);
+    background-image: url(../img/inicio/1n.png);
     position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ transition: all 0.5s ease;
 
 }
 .divrm{
-    background-image: url(../img/inicio/2.png);
+    background-image: url(../img/inicio/2n.png);
     position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ transition: all 0.5s ease;
 }
 
 .divvr{
-    background-image: url(../img/inicio/3.png);
+    background-image: url(../img/inicio/3n.png);
     position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ transition: all 0.5s ease;
 }
 
 .divnt{
-    background-image: url(../img/inicio/4.png);
+    background-image: url(../img/inicio/4n.png);
     position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ transition: all 0.5s ease;
 }
 
 .divsu{
-    background-image: url(../img/inicio/5.png);
+    background-image: url(../img/inicio/5n.png);
     position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
